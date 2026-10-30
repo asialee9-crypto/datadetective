@@ -16,9 +16,13 @@ import {
 import DataCharts from "./components/DataCharts";
 import "./App.css";
 
-const API_URL = (
+const API_URL = String(
   import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"
-).replace(/\/$/, "");
+)
+  .trim()
+  .replace(/^VITE_API_URL\s*=\s*/i, "")
+  .replace(/^['"]|['"]$/g, "")
+  .replace(/\/$/, "");
 
 function App() {
   // Dataset state
