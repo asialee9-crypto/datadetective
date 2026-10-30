@@ -1,0 +1,11 @@
+Student,Study_Hours,Attendance,Exam_Score,Passed
+Alice,8,95,92,Yes
+Bob,3,70,65,Yes
+Charlie,6,85,80,Yes
+Diana,2,60,50,No
+Ethan,9,98,95,Yes
+Fiona,4,75,68,Yes
+George,1,55,40,No
+Hannah,7,90,88,Yes
+Isaac,5,82,75,Yes
+Julia,2,65,55,No
